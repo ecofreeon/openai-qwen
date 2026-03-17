@@ -1,0 +1,23 @@
+{
+  "name": "openai-qwen",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker that provides an **OpenAI-compatible API** backed by **Qwen OAuth credentials**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-mezentsev/openai-qwen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-mezentsev/openai-qwen/issues"
+  },
+  "homepage": "https://github.com/ivan-mezentsev/openai-qwen#readme",
+  "devDependencies": {
+    "wrangler": "^4.74.0"
+  }
+}

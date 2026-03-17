@@ -1,0 +1,8 @@
+name = "openai-qwen"
+main = "src/worker.mjs"
+account_id = "cc367f4093fe47a8e17d9fc4e9ecedd8"
+compatibility_date = "2024-01-17"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "f608736aef354f80a085406a45dff26c"
