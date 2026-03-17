@@ -1,9 +1,3 @@
-# Добавить workflow вручную
-
-1. Открой: **https://github.com/ecofreeon/openai-qwen/new/master?filename=.github/workflows/deploy.yml**
-
-2. Вставь этот код:
-
 ```yaml
 name: Deploy to Cloudflare Workers
 on:
@@ -25,7 +19,3 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 ```
-
-3. Нажми **Commit new file**
-
-4. Открой **Actions** → **Deploy to Cloudflare Workers** → **Run workflow**
